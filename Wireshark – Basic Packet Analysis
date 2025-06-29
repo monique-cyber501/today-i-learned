@@ -1,0 +1,24 @@
+Date: 2025-06-29
+Topic: Wireshark – Basic Packet Analysis
+Platform: TryHackMe
+Room: Wireshark: The Basics
+
+###  What I Explored
+
+* Today I worked through a beginner-level Wireshark lab on TryHackMe. It focused on the fundamentals of packet analysis—how to navigate PCAP files, filter traffic, and extract meaningful information like transferred files or suspicious behavior.
+
+###  Key Things I Learned
+
+* How to use filters like http, dns, and frame contains to zero in on interesting traffic
+
+* Understanding how different protocols (HTTP, DNS, TCP, ICMP) behave at a packet level
+
+* Exporting file content directly from captured packets (e.g., JPEGs and .txt files embedded in traffic)
+
+* Recognizing patterns that could point to malicious behavior or data exfiltration
+
+###  Reflections
+
+This was the first time I really felt like I could “read” what was happening inside the network. Being able to reconstruct a transferred image from raw packet data made the idea of network forensics click in a real way.
+It reminded me that tools like Wireshark aren’t just for reading data—they’re for telling the story of what happened. And understanding that story is key to responding to incidents or spotting threats early.
+Even though it’s a beginner lab, it built a foundation I’ll need for SOC analyst work, especially when it comes to interpreting alerts, investigating suspicious behavior, and validating logs.
