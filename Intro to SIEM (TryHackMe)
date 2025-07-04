@@ -1,0 +1,42 @@
+##  TIL – Intro to SIEM (TryHackMe)
+
+
+**Date:** July 2025  
+**Room:** [Intro to SIEM – TryHackMe]
+**Focus:** Introduction to SIEM concepts and log analysis in a simulated attack scenario
+
+---
+
+###  Summary
+
+Today, I completed the **Intro to SIEM** room on TryHackMe, which provided a hands-on introduction to the fundamental role of **Security Information and Event Management (SIEM)** systems in a Security Operations Center (SOC). Unlike other labs that focus on using specific SIEM tools, this room helped me understand the *concepts* behind SIEM operations, and how analysts use logs to detect and investigate security events.
+
+The room guided me through a practical scenario where I traced a cyberattack by analyzing security logs. The scenario involved detecting signs of **brute-force attacks**, **privilege escalation**, and **lateral movement** using **Windows event logs**. The key was not just looking at individual logs but understanding how these logs can be connected to uncover malicious activity.
+
+---
+
+###  What I Learned
+
+- **Logs Tell a Story**: One of the key takeaways was how much information is hidden in simple event logs. I started to see that multiple failed login attempts, account lockouts, and changes to user privileges aren’t isolated events but potential signals of an ongoing attack.
+  
+- **Attack Lifecycle in Logs**: The room really helped me understand how attacks unfold. I was able to track a cyberattack from the initial brute-force attempt to privilege escalation and lateral movement—just by following the logs and identifying patterns in the events.
+
+- **SIEM’s Role in Security**: Before this, I had a vague idea of what a SIEM does. But now, I can see how crucial they are for correlating large volumes of log data in real-time and identifying security incidents that might otherwise go unnoticed.
+
+---
+
+###  Personal Insights
+
+I’ve been working through various TryHackMe labs, but this one gave me a clearer understanding of how the pieces fit together in a **SOC analyst’s** role. It wasn’t about finding a quick fix or executing an exploit—it was about **analyzing data**, **building an investigation**, and **connecting the dots**.
+
+What surprised me was how much value can be derived from just looking at raw logs. It made me realize that being a good SOC analyst is less about using the most advanced tools and more about understanding the data you're working with and how to piece it together.
+
+I also appreciated how the room broke down complex concepts like log normalization and correlation into bite-sized, digestible chunks. It’s one of those labs that felt like it didn’t just teach *what* to do, but *why* it matters in a real-world SOC context.
+
+---
+
+
+###  Final Thought
+
+This room was a perfect start for my journey into SOC and SIEM. It gave me a solid foundation in understanding the importance of log analysis in detecting and responding to cyber threats. While it didn’t require any specific SIEM tool, it helped me focus on **critical thinking**, **data analysis** and **attack identification**, all skills I’ll need in my path toward becoming a SOC analyst. It was a small but important step forward in shaping how I approach security work.  
+
