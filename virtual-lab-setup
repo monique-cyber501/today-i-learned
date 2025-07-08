@@ -1,0 +1,21 @@
+## 🗓️ TIL – 7/7/25
+
+###  Topic: Virtual Lab Setup & Static IP Configuration
+
+**Today I learned how to:**
+- Successfully install and configure a Windows 10 VM using VirtualBox
+- Isolate the VM from my host network for safer security lab practices
+- Manually assign a static IP address in Windows to support reliable VM identification during future simulations
+
+**Key takeaways:**
+- VirtualBox’s “Internal Network” mode is a great way to create a segmented lab environment that keeps traffic from touching the outside world — a smart move for defensive cybersecurity training.
+- Setting a static IP manually involves digging into the adapter settings and verifying with `ipconfig`, which reinforces networking fundamentals I’ll rely on during log analysis and threat simulations.
+- Taking screenshots and documenting each step not only builds my portfolio but helps reinforce retention.
+
+**Challenges:**
+- Had to troubleshoot access issues when navigating ISO downloads and system permissions
+- Took extra care to censor sensitive network info before adding anything to my GitHub repo
+
+**Next step:**
+- Begin setting up Splunk on an Ubuntu VM and connect both machines for log forwarding practice
+
